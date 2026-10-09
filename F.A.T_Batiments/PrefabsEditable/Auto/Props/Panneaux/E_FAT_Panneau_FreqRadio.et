@@ -1,0 +1,24 @@
+GenericEntity : "{347369F024D777ED}Prefabs/Structures/Signs/Large/FAT_Panneau_FreqRadio.et" {
+ ID "7B721376BF300EDB"
+ components {
+  SCR_EditableEntityComponent "{99AE1BAF6BBAF749}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{676118F53DAC9438}" {
+    Name "Panneau Fréquences radio"
+    Description "Panneau d information F.A.T : fréquences radio"
+    m_Image "{C53E67BEFB9F8FFD}Assets/Panneau/Freq_radio.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{94ADA58D14162E47}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 1
+  }
+  RplComponent "{11A86A791B7A7A96}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+ }
+}

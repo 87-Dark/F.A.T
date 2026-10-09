@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6A18748C88A020CF}Assets/Props/Batiments/FS_HQ/Data/GCA_Logo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

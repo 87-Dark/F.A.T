@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AlphaTest 0.5
+ BCRMap "{103B53FFEAF7B3FE}Assets/Props/Batiments/FS_HQ/Data/T_GCA_Logo_BCR.edds"
+ OpacityMap "{1ADD1500CBB0B14A}Assets/Props/Batiments/FS_HQ/Data/T_GCA_Logo_OPM.edds"
+}

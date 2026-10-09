@@ -1,0 +1,49 @@
+SCR_DestructibleBuildingEntity : "{EEDE74718E4795D2}PrefabsEditable/Auto/Props/Batiments/PoleMedical_RM/E_PoleMedical_RM.et" {
+ ID "3EED6C6634FAA54E"
+ components {
+  DoorSlotComponent "{60D6FBAB947F8E8C}" {
+   EntityPrefab "{FBADA966714B6206}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail.et"
+  }
+  DoorSlotComponent "{FE2E451F2CAF7CA5}" {
+   EntityPrefab "{EED2CD8380F60D52}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail_Inv.et"
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{10D68280D655465C}" {
+     SourceMaterial "PMR_Decals"
+     AssignedMaterial "{E354705DA1C748CA}Assets/Props/Batiments/Pole_Medical_HQ/Data/PMR_Decals.emat"
+    }
+    MaterialAssignClass "{257EB455E911092F}" {
+     SourceMaterial "PMR_Decals2"
+     AssignedMaterial "{B91F5F5DB6459370}Assets/Props/Batiments/Pole_Medical_HQ/Data/PMR_Decals2.emat"
+    }
+    MaterialAssignClass "{BA0AD2FD83C0F4FA}" {
+     SourceMaterial "PMR_Photo"
+     AssignedMaterial "{36B809981E7B4F23}Assets/Props/Batiments/Pole_Medical_HQ/Data/PMR_Photo.emat"
+    }
+    MaterialAssignClass "{1A7C910D6717976E}" {
+     SourceMaterial "PMR_PlasticWhite"
+     AssignedMaterial "{978F03212E541D47}Assets/Props/Batiments/Pole_Medical_HQ/Data/PMR_PlasticWhite.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{4D0002BD8534D5EB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{ACD8577F423090C3}" {
+    Name "Pôle médical (F.A.T)"
+    Description "Pole medical / Service de Sante de la Force d Appui Tactique (base : Pole medical RM Commando Hubert, habillage F.A.T, logo SSA)."
+    m_Image "{6820F0EE8DC65F4F}UI/EditorPreviews/Med.edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+   }
+  }
+ }
+ {
+  GenericEntity : "{5E9AF7DE67D1A4AA}PrefabsEditable/Auto/Props/Batiments/Pole_Medical_HQ/FAT_LogoSSA.et" {
+   ID "6A8F3050F53E435C"
+   coords 5.662 0.338 -7.445
+   angles 0 -90.636 0
+   scale 3
+  }
+ }
+}

@@ -1,0 +1,28 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "44953C5058E03EA3"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch 1er RPIMa"
+     Description "Patch 1er Régiment de Parachutistes d'Infanterie de Marine"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A86B0F1C2D3E401}" {
+     AssignedMaterial "{1079177913FA6CD5}Assets/Data/Patch_Round_1er_RPIMa.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{1079177913FA6CD5}Assets/Data/Patch_Round_1er_RPIMa.emat"
+   }
+   ItemMaterialsOverride {
+    "{1079177913FA6CD5}Assets/Data/Patch_Round_1er_RPIMa.emat"
+   }
+  }
+ }
+}

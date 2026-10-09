@@ -1,0 +1,61 @@
+SCR_DestructibleBuildingEntity : "{73752DA02C416C6F}PrefabsEditable/Auto/Props/Batiments/PM_HQ/E_PM_HQ.et" {
+ ID "D6FDF485FD741DEA"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{F527FB27039AFB09}" {
+     SourceMaterial "PM_Decals"
+     AssignedMaterial "{6703B8FE26A05908}Assets/Props/Batiments/Gendarmerie_HQ/Data/PM_Decals.emat"
+    }
+    MaterialAssignClass "{34CA9B0BCA37323B}" {
+     SourceMaterial "PM_Screen"
+     AssignedMaterial "{163B972815FA0FCB}Assets/Props/Batiments/Gendarmerie_HQ/Data/PM_Screen.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{CE0D5BEA882FE044}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{776F44975C52C773}" {
+    Name "Gendarmerie (F.A.T)"
+    Description "Brigade de Gendarmerie de la Force d Appui Tactique (base : poste PM Commando Hubert, habillage F.A.T)."
+    m_Image "{53833BBD23A9704B}UI/EditorPreviews/GN.edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5F95A950BC780CC1"
+   {
+    GenericEntity {
+     ID "5CB0F58459AC3850"
+     components {
+      MeshObject "{5872F0EB7FA40561}" {
+       Enabled 0
+      }
+     }
+     coords 1.416 0.744 0.613
+     angles 0 122.48 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "7BE3759465611507"
+   components {
+    MeshObject "{67369232E4F4E489}" {
+     Materials {
+      MaterialAssignClass "{6736E644A778195C}" {
+       SourceMaterial "Ecran"
+       AssignedMaterial "{E5D796D3753FF2F7}Assets/Props/Batiments/Gendarmerie_HQ/EcranPM.emat"
+      }
+      MaterialAssignClass "{6736E644A7781972}" {
+       SourceMaterial "Poteaux"
+       AssignedMaterial "{E50F5FDE2F2014A8}Assets/Props/Panneaux_V3/Data/Poteaux.emat"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "6A8683DC2559ACC9"
+ components {
+  MeshObject "{5DB09136B1C985B5}" {
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{E862C637C137AF46}Assets/Data/Patch_Round_FAT_Medical.emat"
+   }
+   ItemMaterialsOverride {
+    "{E862C637C137AF46}Assets/Data/Patch_Round_FAT_Medical.emat"
+   }
+  }
+ }
+}

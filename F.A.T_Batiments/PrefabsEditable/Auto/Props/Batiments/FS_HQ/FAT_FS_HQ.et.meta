@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E7E9A39A56AE39E}PrefabsEditable/Auto/Props/Batiments/FS_HQ/FAT_FS_HQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

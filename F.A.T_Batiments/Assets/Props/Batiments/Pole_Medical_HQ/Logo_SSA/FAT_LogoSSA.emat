@@ -1,0 +1,5 @@
+MatPBRBasic : "{2106A19D51D84C79}Assets/Props/Panneaux_V3/Data/Ecran.emat" {
+ AlphaTest 0.5
+ BCRMap "{58E540EC07644EB4}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/T_FAT_LogoSSA_BCR.edds"
+ OpacityMap "{7A20343694DBB2F9}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/T_FAT_LogoSSA_OPM.edds"
+}

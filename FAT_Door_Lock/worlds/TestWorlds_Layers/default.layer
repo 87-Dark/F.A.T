@@ -1,0 +1,8 @@
+$grp SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
+ {
+  coords 127.879 0 174.586
+ }
+ {
+  coords 127.622 0 137
+ }
+}

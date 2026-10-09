@@ -1,0 +1,22 @@
+GameProject {
+ ID "FAT_Door_Lock"
+ GUID "6A894BF17D9A72B2"
+ TITLE "FAT_Door_Lock"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1533438D26E9305D}PrefabsEditable/Auto/Props/Batiments/Pole_Medical_HQ/FAT_hopital.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

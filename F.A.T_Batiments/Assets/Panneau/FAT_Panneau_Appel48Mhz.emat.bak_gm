@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.451 0.451 0.451 1
+ BCRMap "{F3BBE827C8A8A4D3}Assets/Panneau/Appel_48Mhz.edds"
+ NMOMap "{1305B8BB10D15538}Assets/Structures/Signs/Large/Data/SignLarge_01_MLOD_NMO.edds"
+}

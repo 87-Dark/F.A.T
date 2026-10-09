@@ -1,0 +1,41 @@
+SCR_DestructibleBuildingEntity : "{8FDD138CD04848D4}PrefabsEditable/Auto/Props/Batiments/GCA_HQ/E_GCA_HQ.et" {
+ ID "3899038DD600D2AF"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{1009085F99F5AA26}" {
+     SourceMaterial "GCA_Decals"
+     AssignedMaterial "{B100AF0BF939083C}Assets/Props/Batiments/FS_HQ/Data/GCA_Decals.emat"
+    }
+    MaterialAssignClass "{FF49892CC4F94F99}" {
+     SourceMaterial "GCA_Letters"
+     AssignedMaterial "{0C17D25BD0EFC83B}Assets/Props/Batiments/FS_HQ/Data/GCA_Letters.emat"
+    }
+    MaterialAssignClass "{557A8D41C5096FB3}" {
+     SourceMaterial "GCA_Logo"
+     AssignedMaterial "{6A18748C88A020CF}Assets/Props/Batiments/FS_HQ/Data/GCA_Logo.emat"
+    }
+    MaterialAssignClass "{0B5DED6C912F75BE}" {
+     SourceMaterial "GCA_Screen"
+     AssignedMaterial "{7F0DA3CD474781B4}Assets/Props/Batiments/FS_HQ/Data/GCA_Screen.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{191331A6326E9EE9}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{90F8C9319A0CC6EB}" {
+    Name "QG Forces Spéciales (F.A.T)"
+    Description "QG Forces Spéciales de la Force d Appui Tactique (base : QG GCA Commando Hubert, habillage F.A.T)."
+    m_Image "{05D7592EB9D1BC08}UI/EditorPreviews/FS.edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "68BC278518C856A4"
+   coords 0.9 3.05 -5.27
+  }
+ }
+}

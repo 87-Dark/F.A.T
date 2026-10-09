@@ -1,0 +1,12 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{8477C4AE59A64D49}" : "{6A769C493EAAE05E}Configs/Editor/PlaceableEntities/FAT_Structures.conf" {
+     m_sAddon "F.A.T"
+    }
+   }
+  }
+ }
+}

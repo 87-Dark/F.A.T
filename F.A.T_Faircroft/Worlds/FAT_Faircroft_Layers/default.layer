@@ -1,0 +1,68 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6188DC2F021C5415}" {
+     NavmeshFile "{8EA933D593EBAE00}Worlds/GameMaster/Navmeshes/BritMapProject.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{EE7A1FAB146720E2}Worlds/GameMaster/Navmeshes/BritMapProjectBTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{B42DA99EE5260987}Worlds/GameMaster/Navmeshes/BritMapProjectLowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 6415.993 109.342 6488.331
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6487.316 109.342 6387.294
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{52A0F769D0793321}Prefabs/MP/Modes/Editor/FAT_GameMode_Editor.et" {
+ coords 6427.549 109.342 6399.991
+}
+GenericEntity {
+ components {
+  MeshObject "{6A8D3705DBD25E39}" {
+   Object "{87D4CB5D33DBE6EF}Panneau/Panneau FAT.xob"
+  }
+ }
+ coords 2136.972 26.826 5413.867
+}
+SCR_MapLocator {
+ coords 6424.28 109.342 6397.263
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 6399.067 109.342 6431.62
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 7603.886 36.467 1996.399
+ m_fRandomSpawnRadius 2
+}
+GenericEntity : "{76D4FE49EA6C57F3}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_US_01.et" {
+ coords 7640.197 36.468 1997.03
+}
+GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
+ coords 7572.399 36.471 1995.788
+}

@@ -1,0 +1,27 @@
+GenericEntity {
+ ID "693392454F81D493"
+ components {
+  MeshObject "{519005646A863FEF}" {
+   Object "{4635AE111A10530D}Assets/Props/Panneaux_V3/PanneauNewV1.xob"
+   Materials {
+    MaterialAssignClass "{09FA8B5DE640E969}" {
+     SourceMaterial "Ecran"
+     AssignedMaterial "{0A590CB36F9AF98A}Assets/Props/Batiments/Infanterie_HQ/Data/Cerbere_Banner_EM_Panel.emat"
+    }
+    MaterialAssignClass "{F59E96083F945F30}" {
+     SourceMaterial "Cadre"
+     AssignedMaterial "{C0BB4AB6E059CFE9}Assets/Props/Batiments/Infanterie_HQ/Data/FAT_Invisible_Total.emat"
+    }
+    MaterialAssignClass "{E6CBB2CEA2359937}" {
+     SourceMaterial "Poteaux"
+     AssignedMaterial "{C0BB4AB6E059CFE9}Assets/Props/Batiments/Infanterie_HQ/Data/FAT_Invisible_Total.emat"
+    }
+    MaterialAssignClass "{EFDB2EFCE02D5FE3}" {
+     SourceMaterial "Verre"
+     AssignedMaterial "{C0BB4AB6E059CFE9}Assets/Props/Batiments/Infanterie_HQ/Data/FAT_Invisible_Total.emat"
+    }
+   }
+  }
+ }
+ scale 3
+}

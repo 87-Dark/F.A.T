@@ -1,0 +1,5 @@
+MatPBRBasic : "{2106A19D51D84C79}Assets/Props/Panneaux_V3/Data/Ecran.emat" {
+ AlphaTest 0.5
+ BCRMap "{163B4BEDE6D82EF6}Assets/Props/Batiments/Infanterie_HQ/Data/T_Cerbere_Banner_EM_Panel_BCR.edds"
+ OpacityMap "{975E919185DDD80A}Assets/Props/Batiments/Infanterie_HQ/Data/T_Cerbere_Banner_EM_Panel_OPM.edds"
+}

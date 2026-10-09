@@ -1,0 +1,29 @@
+GenericEntity {
+ ID "11F2A81B5ABEA5B5"
+ components {
+  MeshObject "{519005646A863FEF}" {
+   Object "{4635AE111A10530D}Assets/Props/Panneaux_V3/PanneauNewV1.xob"
+   Materials {
+    MaterialAssignClass "{09FA8B5DE640E969}" {
+     SourceMaterial "Ecran"
+     AssignedMaterial "{F2888FC1C56319DB}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/FAT_LogoSSA.emat"
+    }
+    MaterialAssignClass "{F59E96083F945F30}" {
+     SourceMaterial "Cadre"
+     AssignedMaterial "{3FCF776A4A872525}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/FAT_Invisible.emat"
+    }
+    MaterialAssignClass "{E6CBB2CEA2359937}" {
+     SourceMaterial "Poteaux"
+     AssignedMaterial "{3FCF776A4A872525}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/FAT_Invisible.emat"
+    }
+    MaterialAssignClass "{EFDB2EFCE02D5FE3}" {
+     SourceMaterial "Verre"
+     AssignedMaterial "{3FCF776A4A872525}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/FAT_Invisible.emat"
+    }
+   }
+  }
+ }
+ coords 5.636 0.381 -7.567
+ angles 0 -92.014 0
+ scale 3
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ MetalnessScale 0
+ BCRMap "{25C17E11E37E16B9}Assets/Data/Patch_Round_Gendarmerie_BCR.edds"
+ NMOMap "{332F476122020B6B}Assets/Data/Patch_Round_FAT_NMO.edds"
+}

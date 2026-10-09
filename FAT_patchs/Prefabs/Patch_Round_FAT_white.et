@@ -1,0 +1,28 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "D4AF45DC3A89B27F"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch FAT - Blanc"
+     Description "Patch Force d'Appui Tactique, version blanche"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A86B0F1C2D3E401}" {
+     AssignedMaterial "{376E9B4999050D1A}Assets/Data/Patch_Round_FAT_white.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{376E9B4999050D1A}Assets/Data/Patch_Round_FAT_white.emat"
+   }
+   ItemMaterialsOverride {
+    "{376E9B4999050D1A}Assets/Data/Patch_Round_FAT_white.emat"
+   }
+  }
+ }
+}

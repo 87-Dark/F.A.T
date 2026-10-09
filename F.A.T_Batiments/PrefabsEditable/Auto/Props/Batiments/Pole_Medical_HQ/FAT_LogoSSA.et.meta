@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5E9AF7DE67D1A4AA}PrefabsEditable/Auto/Props/Batiments/Pole_Medical_HQ/FAT_LogoSSA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

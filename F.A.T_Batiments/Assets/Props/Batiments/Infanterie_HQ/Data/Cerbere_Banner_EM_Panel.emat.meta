@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0A590CB36F9AF98A}Assets/Props/Batiments/Infanterie_HQ/Data/Cerbere_Banner_EM_Panel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

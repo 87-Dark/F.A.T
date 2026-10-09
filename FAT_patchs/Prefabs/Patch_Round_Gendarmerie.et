@@ -1,0 +1,28 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "4BCB697F2F933CBC"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch Gendarmerie Prevotale"
+     Description "Patch Gendarmerie Prevotale"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A86B0F1C2D3E401}" {
+     AssignedMaterial "{9AD0DC6A07378255}Assets/Data/Patch_Round_Gendarmerie.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{9AD0DC6A07378255}Assets/Data/Patch_Round_Gendarmerie.emat"
+   }
+   ItemMaterialsOverride {
+    "{9AD0DC6A07378255}Assets/Data/Patch_Round_Gendarmerie.emat"
+   }
+  }
+ }
+}

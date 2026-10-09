@@ -1,0 +1,30 @@
+GenericEntity : "{48C842DD171DE304}Prefabs/Structures/Signs/Large/SignLarge_01_base.et" {
+ ID "ED5466E68C6CEB06"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{6A91792C742BBA2E}" {
+     SourceMaterial "SignLarge_01"
+     AssignedMaterial "{EDE67D5854FF1F59}Assets/Panneau/FAT_Panneau_Appel48Mhz.emat"
+    }
+    MaterialAssignClass "{6A91792C742BBA43}" {
+     SourceMaterial "SignLarge_01_MLOD"
+     AssignedMaterial "{42DD2F496441130B}Assets/Panneau/FAT_Panneau_Appel48Mhz_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{54969A6AA8773997}" {
+   ResponseIndex "LargeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{57209A7D9AC2E2D9}" {
+     m_ModelPrefabs {
+      "{015711DD96E102FF}Prefabs/Structures/Signs/Large/Dst/SignLarge_01_MilitaryBase_dst.et"
+     }
+    }
+   }
+  }
+ }
+ scale 3
+}

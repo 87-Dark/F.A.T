@@ -1,0 +1,24 @@
+GenericEntity : "{CB1FBDEB82175E72}Prefabs/Structures/Signs/Large/FAT_Panneau_Appel48Mhz.et" {
+ ID "2A8680718FF049DC"
+ components {
+  SCR_EditableEntityComponent "{EAFF9301A08E5F54}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{0030C2D4CD5B84B3}" {
+    Name "Panneau Appel 48 MHz"
+    Description "Panneau d information F.A.T : appel radio 48 MHz"
+    m_Image "{F3BBE827C8A8A4D3}Assets/Panneau/Appel_48Mhz.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5088538751AF2EE6}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 1
+  }
+  RplComponent "{182DCBB3545528B9}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+ }
+}

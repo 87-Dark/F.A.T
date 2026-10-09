@@ -1,0 +1,4 @@
+MatPBRBasic {
+ AlphaTest 0.5
+ OpacityMap "{1E5C7E112B4498CF}Assets/Props/Batiments/FS_HQ/Data/T_GCA_Letters_OPM.edds"
+}

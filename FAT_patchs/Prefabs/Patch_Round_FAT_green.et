@@ -1,0 +1,28 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "CE90BEB914534C79"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch FAT - Vert"
+     Description "Patch Force d'Appui Tactique, version verte "
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A86B0F1C2D3E401}" {
+     AssignedMaterial "{2EFCCE28ED989868}Assets/Data/Patch_Round_FAT_green.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{2EFCCE28ED989868}Assets/Data/Patch_Round_FAT_green.emat"
+   }
+   ItemMaterialsOverride {
+    "{2EFCCE28ED989868}Assets/Data/Patch_Round_FAT_green.emat"
+   }
+  }
+ }
+}

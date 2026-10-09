@@ -1,0 +1,22 @@
+GameProject {
+ ID "FAT_Batiments"
+ GUID "6A9169C74136683A"
+ TITLE "F.A.T_Batiments"
+ Dependencies {
+  "58D0FB3206B6F859" "68894B409DE9DA72" "6052A9DD45564825" "65A0E85F907C1CF8"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

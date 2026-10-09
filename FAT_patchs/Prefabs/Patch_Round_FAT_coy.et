@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "6A8683DC2559ACC9"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Patch FAT - Coyote"
+     Description "Patch Force d'Appui Tactique, version coyote"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.5
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{CBC802D0287AD1B6}Assets/Patches/Round/Patch_Round.xob"
+   Materials {
+    MaterialAssignClass "{6A86B0F1C2D3E401}" {
+     SourceMaterial "Patch_Round"
+     AssignedMaterial "{5C1E8F3A72D94B06}Assets/Data/Patch_Round_FAT_coy.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{5C1E8F3A72D94B06}Assets/Data/Patch_Round_FAT_coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{5C1E8F3A72D94B06}Assets/Data/Patch_Round_FAT_coy.emat"
+   }
+  }
+ }
+}

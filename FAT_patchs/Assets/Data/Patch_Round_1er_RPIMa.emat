@@ -1,0 +1,5 @@
+MatPBRBasic {
+ MetalnessScale 0
+ BCRMap "{A8E326760BD57988}Assets/Data/Patch_Round_1er_RPIMa_BCR.edds"
+ NMOMap "{332F476122020B6B}Assets/Data/Patch_Round_FAT_NMO.edds"
+}

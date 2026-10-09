@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "627CE52CCB2692FE"
+ components {
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   additionalActions {
+    DL_DoorLockUserAction "{6A8953D450C47108}" {
+     ParentContextList {
+      "SCR_DoorUserAction"
+     }
+     UIInfo SCR_ActionUIInfo "{6A8953D475A630AF}" {
+      Name "Verrou"
+     }
+    }
+   }
+  }
+ }
+}

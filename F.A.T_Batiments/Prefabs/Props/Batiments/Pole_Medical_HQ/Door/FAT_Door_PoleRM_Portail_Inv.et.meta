@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EED2CD8380F60D52}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail_Inv.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

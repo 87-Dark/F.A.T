@@ -1,0 +1,39 @@
+SCR_DestructibleBuildingEntity : "{7ADFECA49468978B}PrefabsEditable/Auto/Props/Batiments/Cerbere_HQ/E_Cerbere_HQ.et" {
+ ID "5732E2B5946E5F5F"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{C26D5DA0F8E0A884}" {
+     SourceMaterial "Cerbere_Banner"
+     AssignedMaterial "{E238508CC4F6C3D7}Assets/Props/Batiments/Infanterie_HQ/Data/Cerbere_Banner.emat"
+    }
+    MaterialAssignClass "{BA56CEEB6A76038F}" {
+     SourceMaterial "Cerbere_Decals"
+     AssignedMaterial "{15D68957ED9DE671}Assets/Props/Batiments/Infanterie_HQ/Data/Cerbere_Decals.emat"
+    }
+    MaterialAssignClass "{CD97C2448D4262A9}" {
+     SourceMaterial "Cerbere_Logo"
+     AssignedMaterial "{B9BDB27ACF7D143F}Assets/Props/Batiments/Infanterie_HQ/Data/Cerbere_Logo.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{935574E8BC3004DE}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "QG Infanterie (F.A.T)"
+    Description "QG Infanterie / Etat-Major de la Force d Appui Tactique (base : QG Cerbere Commando Hubert, habillage F.A.T, banniere Etat-Major)."
+    m_Image "{C117F78A02CF5F99}UI/EditorPreviews/inf.edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+   }
+  }
+ }
+ {
+  GenericEntity : "{B5BFD53E2F0233D3}PrefabsEditable/Auto/Props/Batiments/Infanterie_HQ/FAT_Banniere_EM.et" {
+   ID "6A9164DBA6C8DB75"
+   coords -9.636 1.138 -7.551
+   angles 0 -0.502 0.009
+   scale 3
+  }
+ }
+}

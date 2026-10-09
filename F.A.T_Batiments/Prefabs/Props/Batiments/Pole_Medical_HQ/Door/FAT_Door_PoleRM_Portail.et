@@ -1,0 +1,13 @@
+GenericEntity : "{654C2F2C2D1EC144}Prefabs/Props/Batiments/Door/Door_PoleRM_Portail.et" {
+ ID "B0C17562AACD85EB"
+ components {
+  MeshObject "{309366462BDAFB24}" {
+   Materials {
+    MaterialAssignClass "{2124D6675586BB3B}" {
+     SourceMaterial "PMR_PlasticWhite"
+     AssignedMaterial "{3FCF776A4A872525}Assets/Props/Batiments/Pole_Medical_HQ/Logo_SSA/FAT_Invisible.emat"
+    }
+   }
+  }
+ }
+}

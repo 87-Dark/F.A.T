@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.451 0.451 0.451 1
+ BCRMap "{C53E67BEFB9F8FFD}Assets/Panneau/Freq_radio.edds"
+ NMOMap "{1305B8BB10D15538}Assets/Structures/Signs/Large/Data/SignLarge_01_MLOD_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A00DD9F80A0E80B}PrefabsEditable/Auto/Props/Batiments/Gendarmerie_HQ/Panneau2026_PM.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

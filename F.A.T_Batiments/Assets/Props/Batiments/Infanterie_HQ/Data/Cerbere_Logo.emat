@@ -1,0 +1,5 @@
+MatPBRBasic {
+ AlphaTest 0.5
+ BCRMap "{D2870E583BE7113C}Assets/Props/Batiments/Infanterie_HQ/Data/T_Cerbere_Logo_BCR.edds"
+ OpacityMap "{4B5154B10411779F}Assets/Props/Batiments/Infanterie_HQ/Data/T_Cerbere_Logo_OPM.edds"
+}

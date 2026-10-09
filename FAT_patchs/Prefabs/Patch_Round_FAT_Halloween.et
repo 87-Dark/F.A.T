@@ -1,0 +1,13 @@
+GameEntity : "{51484AEB5F46FCA8}Prefabs/Patch_Round_FAT_coy.et" {
+ ID "6A8683DC2559ACC9"
+ components {
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{8A4CD9E02AD667FA}Assets/Data/Patch_Round_FAT_halloween.emat"
+   }
+   ItemMaterialsOverride {
+    "{8A4CD9E02AD667FA}Assets/Data/Patch_Round_FAT_halloween.emat"
+   }
+  }
+ }
+}

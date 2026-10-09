@@ -1,0 +1,22 @@
+GameProject {
+ ID "F.A.T_Faircroft"
+ GUID "6A8C7100251AA927"
+ TITLE "F.A.T_Faircroft"
+ Dependencies {
+  "58D0FB3206B6F859" "614B62005CBB8057" "65A0E85F907C1CF8" "6A9169C74136683A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
