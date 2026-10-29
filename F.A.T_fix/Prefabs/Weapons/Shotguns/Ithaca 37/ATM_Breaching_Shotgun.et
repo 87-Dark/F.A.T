@@ -1,0 +1,31 @@
+GenericEntity : "{34B2434D37E3FF16}Prefabs/Weapons/Shotguns/Ithaca 37/BC_Shotgun_Ithaca_37_Sawed.et" {
+ ID "5254ACCA959048B9"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{69B4AA47475D5D87}" {
+     SourceMaterial "TrenchGun"
+     AssignedMaterial "{40E7A341D772BA91}Assets/Weapons/Shotguns/Ithaca 37/Data/ATM_Breaching_TrenchGun.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "=ATM= Breaching Shotgun"
+     Description "12 Gauge pump-action shotgun pour ouvrir les portes verrouillées.  Pour plus d'infos -> www.atmarma.fr"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineWell ATM_MagazineWellBreaching {
+     }
+     MagazineTemplate "{0A4BDD4BDAE50B9F}Prefabs/Weapons/Magazines/Internal Mags (Do not use)/ATM_breaching_Internal_mag_Buckshot.et"
+    }
+   }
+   WeaponSlotType "primary"
+  }
+ }
+}

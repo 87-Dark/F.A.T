@@ -1,0 +1,22 @@
+GameProject {
+ ID "F.A.T_Everon"
+ GUID "97EDC530D67DBEC5"
+ TITLE "F.A.T_Everon"
+ Dependencies {
+  "58D0FB3206B6F859" "65A0E85F907C1CF8" "6A9169C74136683A" "64CF25A41DCBDBE0" "65DB713038B8533C" "65D2BD1BD7EA7BF6" "595F2BF2F44836FB" "68EA1E4F0E4B1321" "69D761381EC7F6C7"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

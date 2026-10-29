@@ -1,0 +1,157 @@
+GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+ coords 7696.554 14.627 8120.711
+ angles 0 38.938 1.758
+ {
+  $grp SCR_FiringRangeTarget : "{6A6A10D79B226047}PrefabsEditable/Auto/Props/Military/Training/E_SC2_01.et" {
+   {
+    components {
+     SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords -115.535 -4.066 -44.589
+    angles 1.751 95.283 0.162
+    {
+     $grp SCR_FiringRangeTarget : "{6A6A10D79B226047}PrefabsEditable/Auto/Props/Military/Training/E_SC2_01.et" {
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -5.128 -0.27 -0.319
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -9.144 -0.452 -0.84
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -17.267 -0.522 -1.357
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -27.751 -0.678 -2.094
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -38.304 -0.509 -2.615
+      }
+     }
+    }
+   }
+   {
+    components {
+     SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords -67.596 -4.036 -44.695
+    angles 1.758 90.924 0.028
+    {
+     $grp SCR_FiringRangeTarget : "{6A6A10D79B226047}PrefabsEditable/Auto/Props/Military/Training/E_SC2_01.et" {
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -10.16 -0.001 0.001
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -24.039 -0.001 0.001
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -34.246 -0.001 0.001
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -46.135 -0.001 0.001
+      }
+     }
+    }
+   }
+   {
+    components {
+     SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords -45.543 -3.744 -40.407
+    angles 1.758 91.802 0.055
+    {
+     $grp SCR_FiringRangeTarget : "{6A6A10D79B226047}PrefabsEditable/Auto/Props/Military/Training/E_SC2_01.et" {
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -12.563 0 -0
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -24.217 0 0
+      }
+      {
+       components {
+        SCR_EditableEntityComponent "{60D0E22B59BAF022}" {
+         m_bAutoRegister NEVER
+        }
+       }
+       coords -35.355 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D3CD4ECF34FEA9F1}Prefabs/Structures/Military/Flags/FlagPole_01/Poteau_MatDesCouleurs.et" {
+ components {
+  MapDescriptorComponent "{6AA728EE0E35D7B8}" {
+   DisplayName "Stand de tir - Parcours Obstacle"
+   MapItemDescriptor 1
+   MainType "Name Island"
+   Scale 1
+   Faction 1
+   Priority 10
+  }
+ }
+ coords 7697.785 12.952 8093.008
+ angles 0 -52.477 0
+}

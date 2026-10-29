@@ -1,11 +1,154 @@
 SCR_DestructibleBuildingEntity : "{EEDE74718E4795D2}PrefabsEditable/Auto/Props/Batiments/PoleMedical_RM/E_PoleMedical_RM.et" {
  ID "3EED6C6634FAA54E"
  components {
+  DoorSlotComponent "{10A3ACD410611EEB}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{182F1B1A3B5F4FAC}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{25DB75D7492FBB03}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{33AB94A1E8A0E652}" {
+   EntityPrefab "{FBADA966714B6206}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail.et"
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{3D473F715A8EEF77}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{3F79C1C0E7351751}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{533B13647AF2F454}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{578A8B1477D9203B}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
   DoorSlotComponent "{60D6FBAB947F8E8C}" {
    EntityPrefab "{FBADA966714B6206}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail.et"
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{644BAB31BD94155B}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{66FD314DC1A6C041}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{85F7A7C03619C667}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{87F28489DF08961F}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{A4CEEBF2C2AE2670}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{AD67B1723F690EA3}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{AF2FE66616D59B29}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{C36EAA0B73C20341}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{CC84368337A7FC6E}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{D2B8D769CFA6F75C}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{D37EF56B1217073A}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{D93505E4A791E261}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{DBEAF6CB5D202735}" {
+   EntityPrefab "{FBADA966714B6206}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail.et"
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{DC33EBE00E10D2F1}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{E02D4C4E15120D45}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{E54C2E450E3EF316}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{ED3726B9666CF522}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{F971C0BCD98F2A37}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{FE2C8F47F6BF4AAD}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
   }
   DoorSlotComponent "{FE2E451F2CAF7CA5}" {
    EntityPrefab "{EED2CD8380F60D52}Prefabs/Props/Batiments/Pole_Medical_HQ/Door/FAT_Door_PoleRM_Portail_Inv.et"
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
   }
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
@@ -20,6 +163,10 @@ SCR_DestructibleBuildingEntity : "{EEDE74718E4795D2}PrefabsEditable/Auto/Props/B
     MaterialAssignClass "{BA0AD2FD83C0F4FA}" {
      SourceMaterial "PMR_Photo"
      AssignedMaterial "{36B809981E7B4F23}Assets/Props/Batiments/Pole_Medical_HQ/Data/PMR_Photo.emat"
+    }
+    MaterialAssignClass "{8B34186DDEE1B02A}" {
+     SourceMaterial "PMR_PhotoExt"
+     AssignedMaterial "{6BA02830FA1801D4}Assets/Props/Batiments/PoleMedical_RM/Data/PMR_Facade.emat"
     }
     MaterialAssignClass "{1A7C910D6717976E}" {
      SourceMaterial "PMR_PlasticWhite"

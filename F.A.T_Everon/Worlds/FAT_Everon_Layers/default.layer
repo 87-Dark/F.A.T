@@ -1,0 +1,69 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6188DC2F021C5415}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{7D688F9248945DA6}worlds/MP/Navmeshes/CTI_Campaign_HQC_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 6415.993 0 6488.331
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6487.316 0 6387.294
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{85952F87B6728C2F}Prefabs/MP/Modes/Editor/FAT_GameMode_Editor.et" {
+ components {
+  FAT_DriverCameraComponent "{6A9F67D4255AADCC}" {
+  }
+ }
+ coords 6427.549 0 6399.991
+}
+SCR_MapLocator {
+ coords 6424.28 0 6397.263
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 4948.874 28.425 11672.037
+  m_fRandomSpawnRadius 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Entree base F.A.T"
+  }
+ }
+ SpawnPoint_FR {
+  coords 4948.874 28.425 11672.037
+  m_fRandomSpawnRadius 2
+  m_sFaction "FR"
+  m_Info SCR_UIInfo "{6A8D2F4B19C3E571}" {
+   Name "Entree base F.A.T"
+   Icon "{FA465DAFDCCCB709}Worlds/F.A.T.edds"
+  }
+ }
+}

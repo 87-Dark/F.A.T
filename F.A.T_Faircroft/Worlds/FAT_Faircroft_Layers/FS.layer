@@ -1,0 +1,179 @@
+SCR_DestructibleBuildingEntity : "{7E7E9A39A56AE39E}PrefabsEditable/Auto/Props/Batiments/FS_HQ/FAT_FS_HQ.et" {
+ coords 8150.533 0 1030.786
+ angles 0 149.181 0
+ {
+  SCR_DestructibleBuildingEntity : "{DEBC2FB8DA61B83E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_nowalls.et" {
+   coords 93.553 -1.605 53.768
+   angles 0 -93.9 0
+   {
+    GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+     coords -1.467 0.011 -0.529
+     angles 0 -91.258 0
+     {
+      GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_US.et" {
+       coords 0.784 0.901 0
+       angles 0 91.826 0
+      }
+     }
+    }
+    $grp GenericEntity : "{82705E62BB2D247E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_01_A_EXT_B.et" {
+     {
+      coords -1.082 0.011 4.063
+      angles 0 177.149 0
+      {
+       GenericEntity {
+        ID "590ED3D5A6904869"
+        components {
+         FRM_DoorAccessComponent "{6A9D7A13D91AE17B}" {
+          m_iAccessSeconds 8
+         }
+        }
+        coords 0 0 0
+       }
+       GenericEntity {
+        ID "590ED3D5A6904849"
+        components {
+         Persistence "{65E4ACA94EC3CCCA}" {
+          Enabled 0
+         }
+         MeshObject "{309366462BDAFB24}" {
+          Enabled 0
+         }
+        }
+        Flags 0 0x1
+       }
+       GenericEntity : "{EC1A4EA962BEC0AD}Prefabs/Items/Misc/Keycode/digicode.et" {
+        components {
+         FRM_CodeTerminalComponent "{688EA74875B72271}" {
+          m_ReqPassword 3945
+          m_bAutoOpenDoor 1
+          m_iAccessSeconds 10
+          m_fDoorSearchRadius 0.3
+         }
+        }
+        coords -1.274 1.621 -0.121
+        angles 0 -177.615 0
+       }
+      }
+     }
+     {
+      coords -1.093 0.011 4.064
+      angles 0 177.149 0
+      {
+       GenericEntity {
+        ID "590ED3D5A6904869"
+        components {
+         Persistence "{65E4ACA94EC3CCCA}" {
+          Enabled 0
+         }
+         MeshObject "{309366462BDAFB24}" {
+          Enabled 0
+         }
+        }
+        coords 0 0 0
+       }
+       GenericEntity {
+        ID "590ED3D5A6904849"
+        components {
+         FRM_DoorAccessComponent "{6A9E15AE09DAF184}" {
+          m_iAccessSeconds 10
+         }
+         ActionsManagerComponent "{F32B667C3C823800}" {
+          Enabled 0
+         }
+        }
+       }
+       GenericEntity : "{EC1A4EA962BEC0AD}Prefabs/Items/Misc/Keycode/digicode.et" {
+        components {
+         FRM_CodeTerminalComponent "{688EA74875B72271}" {
+          m_ReqPassword 3945
+          m_bAutoOpenDoor 1
+         }
+        }
+        coords 1.019 1.606 1.53
+        angles 0 -88.731 0
+       }
+      }
+     }
+    }
+    $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+     {
+      coords 5.864 1.82 4.08
+      angles 0 -0.856 0
+     }
+     {
+      coords 1.902 1.82 4.021
+      angles 0 -0.856 0
+     }
+     {
+      coords -2.21 1.82 -2.867
+      angles 0 -90.719 0
+     }
+     {
+      coords -2.275 1.82 2.338
+      angles 0 -90.719 0
+     }
+     {
+      coords -2.242 1.82 -0.334
+      angles 0 -90.719 0
+     }
+     {
+      coords -0.394 3.073 4.021
+      angles 0 -0.856 0
+      scale 0.34
+     }
+     {
+      coords -1.576 3.073 4.002
+      angles 0 -0.856 0
+      scale 0.34
+     }
+    }
+    $grp StaticModelEntity : "{E2971F2C529A6F83}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {
+     {
+      coords 7.491 1.258 -4.761
+      angles -1.206 -89.771 -0.357
+     }
+     {
+      coords 7.488 1.314 4.24
+      angles 1.209 89.751 0.347
+     }
+     {
+      coords 7.296 1.224 -4.716
+      angles -0.356 -179.832 0.489
+     }
+     {
+      coords -2.057 1.145 -4.64
+      angles 0.366 1.436 -0.481
+     }
+    }
+    $grp GenericEntity : "{F38E6C4BB2B177C3}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/Workbench Locker.et" {
+     {
+      components {
+       SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+        m_eSupportedArsenalItemTypes 2093054
+       }
+       SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+        "faction affiliation" "FR"
+       }
+      }
+      coords 1.185 0.011 -4.308
+      angles 0 178.919 0
+     }
+     {
+      components {
+       SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+        "faction affiliation" "RHS_USAF"
+       }
+      }
+      coords 7.114 0.011 -0.25
+      angles 0 88.602 0
+     }
+     {
+      coords 3.371 0.011 3.412
+      angles 0 -1.419 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,32 @@
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 7811.489 36.469 2119.511
+ angles 0 105.523 0
+ {
+  $grp StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+   {
+    coords -176.22 0.893 -3.677
+    angles 0 158.058 0
+   }
+   {
+    coords -141.172 0.777 2.233
+    angles 0 161.041 0
+   }
+   {
+    coords -111.095 0.682 12.565
+    angles 0 161.041 0
+   }
+   {
+    coords -92.934 0.911 44.619
+    angles 0 161.041 0
+   }
+   {
+    coords -58.459 0.911 33.756
+    angles 0 161.041 0
+   }
+  }
+  GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+   coords -11.11 -0.001 0.344
+   angles 0 32.61 0
+  }
+ }
+}

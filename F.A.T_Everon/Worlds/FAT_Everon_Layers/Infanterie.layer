@@ -1,0 +1,211 @@
+SCR_DestructibleBuildingEntity : "{80AB7E361752621A}PrefabsEditable/Auto/Props/Batiments/Infanterie_HQ/FAT_Infanterie_HQ.et" {
+ components {
+  SCR_EditableEntityComponent "{935574E8BC3004DE}" {
+   m_bAutoRegister NEVER
+  }
+ }
+ coords 4852.511 0 11707.355
+ angles 0 178 0
+ {
+  GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+   coords 19.255 0.3 -6.652
+   angles 0 87.64 0
+   {
+    GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_US.et" {
+     coords 0.438 0.901 0.026
+     angles 0 -176.635 0
+    }
+   }
+  }
+  SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+   coords 19.396 1.459 11.035
+   angles 0 88 0
+  }
+  $grp SCR_DestructibleEntity : "{C79DE14DD50C46C5}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_02_4m.et" {
+   {
+    coords 12.146 1.032 8.829
+    angles 0 -0.956 0
+   }
+   {
+    coords 15.948 1.102 8.831
+    angles 0 0.896 0
+   }
+   {
+    coords 10.129 1.032 6.837
+    angles 0 89.889 0
+   }
+  }
+  $grp GenericEntity : "{F38E6C4BB2B177C3}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/Workbench Locker.et" {
+   {
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 650432
+      m_eSupportedArsenalItemModes 34
+      m_eEditableAttributeGroups 28
+     }
+     SCR_EditableEntityComponent "{68E41391BEE9AE51}" {
+      m_bAutoRegister NEVER
+     }
+     SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+      "faction affiliation" "FR"
+     }
+    }
+    coords 10.502 0.3 -7.332
+    angles 0 -90.715 0
+   }
+   {
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 80960
+      m_eSupportedArsenalItemModes 34
+      m_eEditableAttributeGroups EQUIPMENT
+     }
+     SCR_EditableEntityComponent "{68E41391BEE9AE51}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords 11.838 0.3 -0.469
+    angles 0 1.856 0
+   }
+   {
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 644224
+      m_eSupportedArsenalItemModes 34
+      m_eEditableAttributeGroups 12
+     }
+     SCR_EditableEntityComponent "{68E41391BEE9AE51}" {
+      m_bAutoRegister NEVER
+     }
+     SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+      "faction affiliation" "RHS_USAF"
+     }
+    }
+    coords 16.885 0.3 -0.432
+    angles 0 0.941 0
+   }
+   {
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 394046
+      m_eSupportedArsenalItemModes 94
+      m_eEditableAttributeGroups 18
+     }
+     SCR_EditableEntityComponent "{68E41391BEE9AE51}" {
+      m_bAutoRegister NEVER
+     }
+     SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+      "faction affiliation" "FR"
+     }
+    }
+    coords 19.403 0.3 4.71
+    angles 0 90.016 0
+   }
+   {
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 1442324
+     }
+     SCR_EditableEntityComponent "{68E41391BEE9AE51}" {
+      m_bAutoRegister NEVER
+     }
+     SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+      "faction affiliation" "RHS_USAF"
+     }
+    }
+    coords 15.628 0.3 8.259
+    angles 0 -0.055 0
+   }
+  }
+ }
+}
+$grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+ {
+  coords 4833.695 1.665 11691.695
+  angles 0 88 0
+ }
+ {
+  coords 4833.834 1.813 11687.717
+  angles 0 88 0
+ }
+ {
+  coords 4833.973 1.906 11683.731
+  angles 0 88 0
+ }
+ {
+  coords 4834.111 1.819 11679.782
+  angles 0 88 0
+ }
+ {
+  coords 4834.246 1.846 11675.918
+  angles 0 88 0
+ }
+ {
+  coords 4834.379 1.842 11672.104
+  angles 0 88 0
+ }
+ {
+  coords 4834.517 1.821 11668.154
+  angles 0 88 0
+ }
+ {
+  coords 4834.656 1.83 11664.188
+  angles 0 88 0
+ }
+ {
+  coords 4834.795 1.859 11660.197
+  angles 0 88 0
+ }
+ {
+  coords 4834.932 1.842 11656.263
+  angles 0 88 0
+ }
+ {
+  coords 4835.069 1.815 11652.339
+  angles 0 88 0
+ }
+ {
+  coords 4837.346 1.818 11650.652
+  angles 0 178 0
+ }
+ {
+  coords 4841.241 1.736 11650.788
+  angles 0 178 0
+ }
+ {
+  coords 4845.23 1.743 11650.928
+  angles 0 178 0
+ }
+ {
+  coords 4849.181 1.766 11651.065
+  angles 0 178 0
+ }
+ {
+  coords 4853.149 1.772 11651.204
+  angles 0 178 0
+ }
+ {
+  coords 4857.085 1.794 11651.342
+  angles 0 178 0
+ }
+ {
+  coords 4861.056 1.877 11651.48
+  angles 0 178 0
+ }
+ {
+  coords 4865.054 1.75 11651.62
+  angles 0 178 0
+ }
+ {
+  coords 4869.004 1.535 11651.758
+  angles 0 178 0
+ }
+ {
+  coords 4872.761 1.535 11651.889
+  angles 0 178 0
+ }
+ {
+  coords 4873.859 1.535 11651.927
+  angles 0 178 0
+ }
+}

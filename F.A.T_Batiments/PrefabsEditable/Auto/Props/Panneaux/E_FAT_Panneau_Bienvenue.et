@@ -1,0 +1,34 @@
+GenericEntity : "{6CDDA0F13B54B03C}Prefabs/Structures/Signs/Large/FAT_Panneau_Bienvenue.et" {
+ ID "8FE10AA11EBC88A0"
+ components {
+  SCR_EditableEntityComponent "{DFC241B8F43B33D3}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{94DCB247C6D82512}" {
+    Name "Panneau Bienvenue"
+    Description "Panneau F.A.T : bienvenue aux nouveaux arrivants (Discord, TikTok)"
+    m_Image "{9F8B91C689588A53}Assets/Panneau/Bienvenue.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+    m_aAutoLabels {
+     THEME_MILITARY THEME_SIGNS ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{3D7F0892A76C1F0B}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{BD8563992FF07EFC}" {
+     m_iParentID -1
+     m_Mesh "{C1749998293A79FD}Assets/Structures/Signs/Large/SignLarge_01_poles.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

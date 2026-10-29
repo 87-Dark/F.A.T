@@ -1,0 +1,46 @@
+GenericEntity : "{CB1FBDEB82175E72}Prefabs/Structures/Signs/Large/FAT_Panneau_Appel48Mhz.et" {
+ ID "7F034A59E31B2352"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{6A91792C742BBA2E}" {
+     SourceMaterial "SignLarge_01"
+     AssignedMaterial "{D586F6D9FCCE15A6}Assets/Panneau/FAT_Panneau_Niglo.emat"
+    }
+    MaterialAssignClass "{6A91792C742BBA43}" {
+     SourceMaterial "SignLarge_01_MLOD"
+     AssignedMaterial "{D586F6D9FCCE15A6}Assets/Panneau/FAT_Panneau_Niglo.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{EAFF9301A08E5F54}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6AAB76DA1C5BCE96}" {
+    Name "Panneau Niglo"
+    Description "Panneau F.A.T : Niglo"
+    m_Image "{83507F4F03E5C0DB}Assets/Panneau/Sid_Niglo.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+    m_aAutoLabels {
+     THEME_MILITARY THEME_SIGNS ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5088538751AF2EE6}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6AAB76DA1C5BCECF}" {
+     m_iParentID -1
+     m_Mesh "{C1749998293A79FD}Assets/Structures/Signs/Large/SignLarge_01_poles.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

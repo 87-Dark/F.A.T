@@ -1,0 +1,9 @@
+SCR_DestructibleBuildingEntity : "{7CC4BA2EF9835F07}PrefabsEditable/Auto/Props/Batiments/Gendarmerie_HQ/FAT_Gendarmerie_HQ.et" {
+ components {
+  SCR_EditableEntityComponent "{CE0D5BEA882FE044}" {
+   m_bAutoRegister NEVER
+  }
+ }
+ coords 4900.836 -0.027 11998.038
+ angles 0 0.58 0
+}

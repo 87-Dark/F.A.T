@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{E90CFB32ED97C944}Prefabs/Characters/FAT/FAT_Character_FR_Minimal.et" {
+ ID "C78B527210D1D3F3"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "US"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Tenue lisse F.A.T"
+    m_sFaction "US"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+    }
+   }
+  }
+ }
+}

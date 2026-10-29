@@ -1,0 +1,54 @@
+GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+ coords 4938.427 28.541 11676.531
+ angles 0 88.477 0
+ {
+  GenericEntity : "{75E96CA1F44DB17C}PrefabsEditable/Auto/Props/Panneaux/E_FAT_Panneau_Bienvenue.et" {
+   components {
+    SCR_EditableEntityComponent "{DFC241B8F43B33D3}" {
+     m_bAutoRegister NEVER
+    }
+   }
+   coords 0.715 0 5.924
+   angles 0 92.182 0
+  }
+  $grp GenericEntity : "{8DFA673D0693B4E3}PrefabsEditable/Auto/Props/Panneaux/E_FAT_Panneau_Appel48Mhz.et" {
+   {
+    components {
+     SCR_EditableEntityComponent "{EAFF9301A08E5F54}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords -0.142 0.363 -1.63
+    angles 0 58.848 0
+   }
+   {
+    components {
+     SCR_EditableEntityComponent "{EAFF9301A08E5F54}" {
+      m_bAutoRegister NEVER
+     }
+    }
+    coords 0.714 0 12.852
+    angles 0 94.894 0
+   }
+  }
+  GenericEntity : "{D1F028AA329C2EAC}PrefabsEditable/Auto/Props/Panneaux/E_FAT_Panneau_AttentionBase.et" {
+   components {
+    SCR_EditableEntityComponent "{7ABB01A36D5AD5DE}" {
+     m_bAutoRegister NEVER
+    }
+   }
+   coords 11.166 0 9.346
+   angles 0 -128.681 0
+  }
+  $grp GenericEntity : "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et" {
+   {
+    coords 0.037 0.966 -0.232
+    angles 0 88.716 0
+   }
+   {
+    coords 0.071 0.966 0.438
+    angles 0 88.716 0
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+GenericEntity : "{0D94A91353B0C521}Prefabs/Structures/Signs/Large/FAT_Panneau_AttentionBase.et" {
+ ID "676255AB489F019F"
+ components {
+  SCR_EditableEntityComponent "{7ABB01A36D5AD5DE}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6C90E3D63EB0CED6}" {
+    Name "Panneau Attention base"
+    Description "Panneau F.A.T : base militaire, zone sécurisée, interdiction de tirer"
+    m_Image "{312C90ED76357DBE}Assets/Panneau/Attention_Base.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_US FAT_Structures
+    }
+    m_aAutoLabels {
+     THEME_MILITARY THEME_SIGNS ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{4F98E87876B554A3}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{773644E3DEAC526E}" {
+     m_iParentID -1
+     m_Mesh "{C1749998293A79FD}Assets/Structures/Signs/Large/SignLarge_01_poles.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+SCR_DestructibleBuildingEntity : "{FFDC9C8026E15E29}Prefabs/Structures/Industrial/Repair/RampVehicle_01/RampVehicle_01_concrete.et" {
+ coords 7544.232 0 2030.138
+ angles 0 108.739 0
+ {
+  Vehicle VBMR_VTT_CE1 : "{0BBC303A84D87434}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/VBMR/VBMR_VTT_CE.et" {
+   coords -35.61 0.056 18.936
+   angles 0 94.384 0
+  }
+  Vehicle VBCI_Dragar_CE1 : "{2834E391EC6FC919}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/VBCI/VBCI_Dragar_CE.et" {
+   coords -34.839 0.056 8.291
+   angles 0 90.418 0
+  }
+  GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+   coords 11.059 0.885 -3.597
+   angles 0 179.783 0
+  }
+  GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+   coords -53.231 -0.001 36.411
+   angles 0 -89.1 0
+  }
+  Vehicle M923A1_ammo_MERDC1 : "{EC657C9B3C73E192}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_MERDC.et" {
+   coords 20.218 0 -0.255
+   angles 0 -0.344 0
+  }
+  SCR_DestructibleBuildingEntity : "{FFDC9C8026E15E29}Prefabs/Structures/Industrial/Repair/RampVehicle_01/RampVehicle_01_concrete.et" {
+   coords 13.168 0 0
+  }
+ }
+}

@@ -1,0 +1,48 @@
+$grp StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+ {
+  coords 4814.408 0.73 11918.74
+  angles 0 -90.562 0
+ }
+ {
+  coords 4816.382 0.267 11769.623
+  angles 0 0.411 0
+ }
+ {
+  coords 4815.397 0.052 11814.065
+  angles 0 90.307 0
+ }
+ {
+  coords 4815.653 0.17 11861.904
+  angles 0 90.307 0
+ }
+ {
+  coords 4884.777 0.308 11966.008
+  angles 0 -86.805 0
+ }
+}
+GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+ components {
+  SCR_EditableEntityComponent "{5EA88D64129A05B1}" {
+   m_bAutoRegister NEVER
+  }
+ }
+ coords 4965.24 28.249 11932.671
+ angles 0 -77.959 0
+}
+$grp GenericEntity : "{A80F0848BFF11327}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleAngled.et" {
+ {
+  coords 4948.16 -0.026 11808.956
+ }
+ {
+  coords 4948.16 0 11826.063
+  angles 0 180 0
+ }
+ {
+  coords 4923.638 0 11826.063
+  angles 0 180 0
+ }
+ {
+  coords 4923.638 0 11808.583
+  angles 0 90 0
+ }
+}

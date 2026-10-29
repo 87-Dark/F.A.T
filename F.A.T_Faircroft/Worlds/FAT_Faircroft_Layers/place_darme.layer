@@ -1,0 +1,80 @@
+GenericEntity : "{D3CD4ECF34FEA9F1}Prefabs/Structures/Military/Flags/FlagPole_01/Poteau_MatDesCouleurs.et" {
+ coords 7549.511 36.478 2155.876
+ angles 0 111.017 0
+ {
+  $grp SCR_DestructibleEntity : "{1D2D308D1325CAA4}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_Tagetes_yellow.et" {
+   {
+    coords -9.339 -0.009 16.452
+    angles 0 -89.387 0
+   }
+   {
+    coords 10.618 -0.009 16.374
+    angles 0 -89.387 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{56DF2B46C647163E}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_begonia_pink.et" {
+   {
+    coords -9.38 -0.009 4.611
+    angles 0 -88.831 0
+   }
+   {
+    coords 10.286 -0.009 4.618
+    angles 0 -88.831 0
+   }
+  }
+  $grp GenericEntity : "{67F920AF645AF573}PrefabsEditable/Auto/Props/Forest/WoodPile/E_WoodLog_01_C.et" {
+   {
+    coords -5.927 -0.04 3.051
+    angles 0 -179.329 0
+   }
+   {
+    coords 5.177 -0.04 2.999
+    angles 0 -179.329 0
+   }
+   {
+    coords -3.148 -0.04 5.961
+    angles 0 90.478 0
+   }
+   {
+    coords 2.457 -0.04 5.938
+    angles 0 90.478 0
+   }
+   {
+    coords 2.476 -0.04 8.189
+    angles 0 90.478 0
+   }
+   {
+    coords -3.134 -0.04 8.213
+    angles 0 90.478 0
+   }
+   {
+    coords -3.117 -0.04 10.296
+    angles 0 90.478 0
+   }
+   {
+    coords 2.532 -0.04 10.271
+    angles 0 90.478 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{70D554B91C368F83}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_long_begonia_white.et" {
+   {
+    coords -9.314 -0.009 10.543
+    angles 0 -89.666 0
+   }
+   {
+    coords 10.474 -0.009 10.505
+    angles 0 -89.666 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{ADC2C85A71A117DE}PrefabsEditable/Auto/Props/Decorations/Flowerpots/FlowerpotStreet_01/E_FlowerpotStreet_01_rect_short_Tagetes_yellow.et" {
+   {
+    coords -9.496 -0.015 0.295
+    angles 0 -89.282 0
+   }
+   {
+    coords 10.128 -0.015 -0.155
+    angles 0 -89.282 0
+   }
+  }
+ }
+}

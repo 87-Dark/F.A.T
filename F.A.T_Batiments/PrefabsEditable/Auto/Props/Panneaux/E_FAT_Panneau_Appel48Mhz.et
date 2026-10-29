@@ -1,7 +1,7 @@
 GenericEntity : "{CB1FBDEB82175E72}Prefabs/Structures/Signs/Large/FAT_Panneau_Appel48Mhz.et" {
  ID "2A8680718FF049DC"
  components {
-  SCR_EditableEntityComponent "{EAFF9301A08E5F54}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+  SCR_EditableEntityComponent "{EAFF9301A08E5F54}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{0030C2D4CD5B84B3}" {
     Name "Panneau Appel 48 MHz"
     Description "Panneau d information F.A.T : appel radio 48 MHz"
@@ -11,14 +11,24 @@ GenericEntity : "{CB1FBDEB82175E72}Prefabs/Structures/Signs/Large/FAT_Panneau_Ap
      CONTENT_MODDED FACTION_US FAT_Structures
     }
     m_aAutoLabels {
-     ENTITYTYPE_OBJECT SIZE_M
+     THEME_MILITARY THEME_SIGNS ENTITYTYPE_OBJECT SIZE_M
     }
    }
   }
   SCR_PreviewEntityComponent "{5088538751AF2EE6}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
-   m_bRuntime 1
-  }
-  RplComponent "{182DCBB3545528B9}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{686606F51B210333}" {
+     m_iParentID -1
+     m_Mesh "{C1749998293A79FD}Assets/Structures/Signs/Large/SignLarge_01_poles.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
   }
  }
 }

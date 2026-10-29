@@ -1,0 +1,22 @@
+GameProject {
+ ID "F.A.T_fix"
+ GUID "F679E091D32BF349"
+ TITLE "F.A.T_fix"
+ Dependencies {
+  "58D0FB3206B6F859" "65B8EA178A3E94E3" "69B349C3F867A086"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,537 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6188DC2F021C5415}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{7D688F9248945DA6}worlds/MP/Navmeshes/CTI_Campaign_HQC_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 6415.993 0 6488.331
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6487.316 0 6387.294
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{85952F87B6728C2F}Prefabs/MP/Modes/Editor/FAT_GameMode_Editor.et" {
+ components {
+  FAT_DriverCameraComponent "{6A9F67D4255AADCC}" {
+  }
+ }
+ coords 6427.549 0 6399.991
+}
+SCR_MapLocator {
+ coords 6424.28 0 6397.263
+}
+$grp SCR_ChimeraCharacter : "{0E8F79E225CEA8A0}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_RTO.et" {
+ {
+  coords 4796.373 167.879 7022.901
+ }
+ {
+  coords 4881.54 170.916 6984.89
+ }
+ {
+  coords 4700.034 161.414 6978.768
+ }
+ {
+  coords 4881.54 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7022.901
+ }
+ {
+  coords 4717.719 161.414 6987.846
+ }
+ {
+  coords 4821.48 167.879 6937.417
+ }
+ {
+  coords 4828.692 167.879 6937.417
+ }
+}
+$grp SCR_ChimeraCharacter : "{1F4CF4C064222042}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_LAT.et" {
+ {
+  coords 4796.373 167.879 7032.605
+ }
+ {
+  coords 4879.817 170.916 6985.998
+ }
+ {
+  coords 4707.3 161.414 6974.009
+ }
+ {
+  coords 4879.817 170.916 7125.662
+ }
+ {
+  coords 4803.586 167.879 7032.605
+ }
+ {
+  coords 4724.985 161.414 6983.086
+ }
+ {
+  coords 4821.48 167.879 6947.121
+ }
+ {
+  coords 4828.692 167.879 6947.121
+ }
+}
+$grp SCR_ChimeraCharacter : "{26B915EC2AAFD197}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_AT.et" {
+ {
+  coords 4796.373 167.879 7016.468
+ }
+ {
+  coords 4879.817 170.916 6990.549
+ }
+ {
+  coords 4707.3 161.414 6982.13
+ }
+ {
+  coords 4879.817 170.916 7130.212
+ }
+ {
+  coords 4803.586 167.879 7016.468
+ }
+ {
+  coords 4724.985 161.414 6991.208
+ }
+ {
+  coords 4821.48 167.879 6930.983
+ }
+ {
+  coords 4828.692 167.879 6930.983
+ }
+}
+$grp SCR_ChimeraCharacter : "{3882962CB575D49C}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Driver.et" {
+ {
+  coords 4796.373 167.879 7023.627
+ }
+ {
+  coords 4879.817 170.916 6982.749
+ }
+ {
+  coords 4707.3 161.414 6986.589
+ }
+ {
+  coords 4879.817 170.916 7122.413
+ }
+ {
+  coords 4803.586 167.879 7023.627
+ }
+ {
+  coords 4724.985 161.414 6995.667
+ }
+ {
+  coords 4821.48 167.879 6938.143
+ }
+ {
+  coords 4828.692 167.879 6938.143
+ }
+}
+$grp SCR_ChimeraCharacter : "{561EF4CB07348370}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Officer.et" {
+ {
+  coords 4796.373 167.879 7022.251
+ }
+ {
+  coords 4879.817 170.916 6983.762
+ }
+ {
+  coords 4707.3 161.414 6977.195
+ }
+ {
+  coords 4879.817 170.916 7123.426
+ }
+ {
+  coords 4803.586 167.879 7022.251
+ }
+ {
+  coords 4724.985 161.414 6986.272
+ }
+ {
+  coords 4821.48 167.879 6936.767
+ }
+ {
+  coords 4828.692 167.879 6936.767
+ }
+}
+$grp SCR_ChimeraCharacter : "{58AB406629E54C26}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_AMG.et" {
+ {
+  coords 4796.373 167.879 7029.444
+ }
+ {
+  coords 4879.817 170.916 6992.987
+ }
+ {
+  coords 4704.957 161.414 6978.768
+ }
+ {
+  coords 4879.817 170.916 7132.65
+ }
+ {
+  coords 4803.586 167.879 7029.444
+ }
+ {
+  coords 4722.642 161.414 6987.846
+ }
+ {
+  coords 4821.48 167.879 6943.959
+ }
+ {
+  coords 4828.692 167.879 6943.959
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 4948.874 28.425 11672.037
+  m_fRandomSpawnRadius 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Entree base F.A.T"
+  }
+ }
+ SpawnPoint_FR {
+  coords 4948.874 28.425 11672.037
+  m_fRandomSpawnRadius 2
+  m_sFaction "FR"
+  m_Info SCR_UIInfo "{6A8D2F4B19C3E571}" {
+   Name "Entree base F.A.T"
+   Icon "{FA465DAFDCCCB709}Worlds/F.A.T.edds"
+  }
+ }
+}
+$grp SCR_ChimeraCharacter : "{742076F82BBC072C}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_CombatMedic.et" {
+ {
+  coords 4796.373 167.879 7020.261
+ }
+ {
+  coords 4879.817 170.916 6980.61
+ }
+ {
+  coords 4707.3 161.414 6978.415
+ }
+ {
+  coords 4879.817 170.916 7120.273
+ }
+ {
+  coords 4803.586 167.879 7020.261
+ }
+ {
+  coords 4724.985 161.414 6987.493
+ }
+ {
+  coords 4821.48 167.879 6934.777
+ }
+ {
+  coords 4828.692 167.879 6934.777
+ }
+}
+$grp SCR_ChimeraCharacter : "{7A1B2C9ECC6AD565}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Medic.et" {
+ {
+  coords 4796.373 167.879 7021.409
+ }
+ {
+  coords 4879.817 170.916 6987.006
+ }
+ {
+  coords 4707.3 161.414 6972.771
+ }
+ {
+  coords 4879.817 170.916 7126.669
+ }
+ {
+  coords 4803.586 167.879 7021.409
+ }
+ {
+  coords 4724.985 161.414 6981.849
+ }
+ {
+  coords 4821.48 167.879 6935.925
+ }
+ {
+  coords 4828.692 167.879 6935.925
+ }
+}
+$grp SCR_ChimeraCharacter : "{7A5EEFF20EA663E6}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_HeliCrew.et" {
+ {
+  coords 4796.373 167.879 7018.901
+ }
+ {
+  coords 4879.817 170.916 6979.26
+ }
+ {
+  coords 4701.428 161.414 6978.768
+ }
+ {
+  coords 4879.817 170.916 7118.923
+ }
+ {
+  coords 4803.586 167.879 7018.901
+ }
+ {
+  coords 4719.113 161.414 6987.846
+ }
+ {
+  coords 4821.48 167.879 6933.417
+ }
+ {
+  coords 4828.692 167.879 6933.417
+ }
+}
+$grp SCR_ChimeraCharacter : "{86E565387A634103}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_MortarCrew.et" {
+ {
+  coords 4796.271 167.862 7018.086
+ }
+ {
+  coords 4879.817 170.916 6981.955
+ }
+ {
+  coords 4709.291 161.414 6978.768
+ }
+ {
+  coords 4879.817 170.916 7121.619
+ }
+ {
+  coords 4803.484 167.862 7018.086
+ }
+ {
+  coords 4726.976 161.414 6987.846
+ }
+ {
+  coords 4821.377 167.862 6932.602
+ }
+ {
+  coords 4828.59 167.862 6932.602
+ }
+}
+$grp SCR_ChimeraCharacter : "{8DB1C1F194CBACF8}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Crew.et" {
+ {
+  coords 4796.373 167.879 7024.551
+ }
+ {
+  coords 4882.71 170.916 6984.89
+ }
+ {
+  coords 4707.3 161.414 6971.525
+ }
+ {
+  coords 4882.71 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7024.551
+ }
+ {
+  coords 4724.985 161.414 6980.603
+ }
+ {
+  coords 4821.48 167.879 6939.066
+ }
+ {
+  coords 4828.692 167.879 6939.066
+ }
+}
+$grp SCR_ChimeraCharacter : "{9118454F47ED90E2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Sharpshooter.et" {
+ {
+  coords 4796.373 167.879 7025.521
+ }
+ {
+  coords 4879.817 170.916 6991.916
+ }
+ {
+  coords 4707.3 161.414 6985.08
+ }
+ {
+  coords 4879.817 170.916 7131.58
+ }
+ {
+  coords 4803.586 167.879 7025.521
+ }
+ {
+  coords 4724.985 161.414 6994.158
+ }
+ {
+  coords 4821.48 167.879 6940.037
+ }
+ {
+  coords 4828.692 167.879 6940.037
+ }
+}
+$grp SCR_ChimeraCharacter : "{9BDC3AC0BDB50019}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Rifleman.et" {
+ {
+  coords 4796.373 167.879 7030.943
+ }
+ {
+  coords 4878.183 170.916 6984.89
+ }
+ {
+  coords 4707.3 161.414 6976.506
+ }
+ {
+  coords 4878.183 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7030.943
+ }
+ {
+  coords 4724.985 161.414 6985.583
+ }
+ {
+  coords 4821.48 167.879 6945.458
+ }
+ {
+  coords 4828.692 167.879 6945.458
+ }
+}
+$grp SCR_ChimeraCharacter : "{AC06A2373D69DB28}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_MG.et" {
+ {
+  coords 4796.373 167.879 7027.895
+ }
+ {
+  coords 4876.759 170.916 6984.89
+ }
+ {
+  coords 4703.392 161.414 6978.768
+ }
+ {
+  coords 4876.759 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7027.895
+ }
+ {
+  coords 4721.077 161.414 6987.846
+ }
+ {
+  coords 4821.48 167.879 6942.411
+ }
+ {
+  coords 4828.692 167.879 6942.411
+ }
+}
+$grp SCR_ChimeraCharacter : "{C66FF6876BCB8047}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_Sapper.et" {
+ {
+  coords 4796.373 167.879 7034.16
+ }
+ {
+  coords 4874.978 170.916 6984.89
+ }
+ {
+  coords 4707.3 161.414 6975.159
+ }
+ {
+  coords 4874.978 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7034.16
+ }
+ {
+  coords 4724.985 161.414 6984.237
+ }
+ {
+  coords 4821.48 167.879 6948.676
+ }
+ {
+  coords 4828.692 167.879 6948.676
+ }
+}
+$grp SCR_ChimeraCharacter : "{DB239B6C4AC64BCE}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_HeliPilot.et" {
+ {
+  coords 4796.373 167.879 7026.324
+ }
+ {
+  coords 4883.86 170.916 6984.89
+ }
+ {
+  coords 4707.3 161.414 6979.858
+ }
+ {
+  coords 4883.86 170.916 7124.554
+ }
+ {
+  coords 4803.586 167.879 7026.324
+ }
+ {
+  coords 4724.985 161.414 6988.936
+ }
+ {
+  coords 4821.48 167.879 6940.84
+ }
+ {
+  coords 4828.692 167.879 6940.84
+ }
+}
+$grp SCR_ChimeraCharacter : "{F3C4020CA491A6E1}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_GL.et" {
+ {
+  coords 4796.373 167.879 7035.724
+ }
+ {
+  coords 4879.817 170.916 6988.01
+ }
+ {
+  coords 4707.3 161.414 6983.197
+ }
+ {
+  coords 4709.436 161.46 6980.967
+ }
+ {
+  coords 4879.817 170.916 7127.673
+ }
+ {
+  coords 4803.586 167.879 7035.724
+ }
+ {
+  coords 4727.121 161.46 6990.044
+ }
+ {
+  coords 4724.985 161.414 6992.274
+ }
+ {
+  coords 4821.48 167.879 6950.24
+ }
+}
+$grp SCR_ChimeraCharacter : "{FE117C2D5326CFCB}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_AR.et" {
+ {
+  coords 4796.373 167.879 7037.417
+ }
+ {
+  coords 4879.817 170.916 6989.405
+ }
+ {
+  coords 4707.3 161.414 6980.764
+ }
+ {
+  coords 4879.817 170.916 7129.068
+ }
+ {
+  coords 4803.586 167.879 7037.417
+ }
+ {
+  coords 4724.985 161.414 6989.842
+ }
+ {
+  coords 4821.48 167.879 6951.933
+ }
+}

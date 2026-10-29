@@ -1,6 +1,101 @@
 SCR_DestructibleBuildingEntity : "{73752DA02C416C6F}PrefabsEditable/Auto/Props/Batiments/PM_HQ/E_PM_HQ.et" {
  ID "D6FDF485FD741DEA"
  components {
+  DoorSlotComponent "{F61E1F2B0E32C4D8}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{DD04B5D2E48854E0}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{C1335C4F1D3C1EEF}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{BF2A3D5E325E3851}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{B7A0FA7B57ADDD20}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{A6287409D97C032A}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{A06764E7951DDAEA}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{94439F286545F8A6}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{875C769CBFED99C8}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{6DD70BE181DCDF31}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{6414A69A06BA4CA1}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{62ADD3FC0F37A263}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{4C4E07660DA62B59}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{36855D3B2A9E2443}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{308223677D248EDF}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{2B6B74D743E9DC76}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{28332E7BFD3F79A8}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{1BE152A5A01E7614}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
+  DoorSlotComponent "{082394E57E0D0876}" {
+   DoorAngleRangeOverride -1
+   DoorClosedAngleOverride -1
+   DoorInitialAngleOverride -1
+  }
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
     MaterialAssignClass "{F527FB27039AFB09}" {

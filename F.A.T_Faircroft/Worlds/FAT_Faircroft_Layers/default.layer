@@ -40,6 +40,10 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 6487.316 109.342 6387.294
 }
 SCR_GameModeEditor GameMode_Editor_Full : "{52A0F769D0793321}Prefabs/MP/Modes/Editor/FAT_GameMode_Editor.et" {
+ components {
+  FAT_DriverCameraComponent "{6A9F67D4255AADCC}" {
+  }
+ }
  coords 6427.549 109.342 6399.991
 }
 GenericEntity {
@@ -53,16 +57,21 @@ GenericEntity {
 SCR_MapLocator {
  coords 6424.28 109.342 6397.263
 }
-MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
- coords 6399.067 109.342 6431.62
-}
-SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
- coords 7603.886 36.467 1996.399
- m_fRandomSpawnRadius 2
-}
-GenericEntity : "{76D4FE49EA6C57F3}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_US_01.et" {
- coords 7640.197 36.468 1997.03
-}
-GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
- coords 7572.399 36.471 1995.788
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ {
+  coords 7600.132 36.625 2255.237
+  m_fRandomSpawnRadius 2
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Entree base F.A.T"
+  }
+ }
+ SpawnPoint_FR {
+  coords 7600.132 36.625 2255.237
+  m_fRandomSpawnRadius 2
+  m_sFaction "FR"
+  m_Info SCR_UIInfo "{6A8D2F4B19C3E571}" {
+   Name "Entree base F.A.T"
+   Icon "{F26009994C89A004}Worlds/F.A.T.edds"
+  }
+ }
 }

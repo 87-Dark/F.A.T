@@ -1,0 +1,1480 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ QG_FAT {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FR"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aConsumers {
+     SCR_ResourceConsumer "{5D587B89CC7DB94C}" {
+      m_fResourceRange 300
+     }
+    }
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fStorageRange 300
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 400
+    m_bCanBeHQ 1
+    m_bIsControlPoint 0
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "QG F.A.T"
+    m_sBaseNameUpper "QG F.A.T"
+    m_bSNKForcePlayerStartingHQ 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_bSNK_Enabled 0
+   }
+  }
+  coords 4948.874 28.425 11672.037
+  angles 0 0 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_iPriority 1
+    m_bSpawnPointEnabled 1
+   }
+  }
+ }
+ QG_USSR {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bCanBeHQ 1
+    m_bIsControlPoint 0
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "QG USSR"
+    m_sBaseNameUpper "QG USSR"
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_bSNK_Enabled 0
+   }
+  }
+  coords 10371.747 34.75 368.371
+  angles 1.499 -20.259 -6.252
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Meaux {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Meaux"
+    m_sBaseNameUpper "MEAUX"
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+    m_eSNK_AbsentBehavior PAUSE
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 2
+    m_fSNK_ZoneRadius 50
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 3
+    m_iSNK_WavesPerGroup 5
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_iSNK_MaxSimultaneousVehicles 1
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 100
+   }
+  }
+  coords 4513.668 13.771 9442.323
+  angles 0.016 0.502 -1.79
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Kermovan {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Kermovan"
+    m_sBaseNameUpper "KERMOVAN"
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+    m_eSNK_AbsentBehavior PAUSE
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 2
+    m_fSNK_ZoneRadius 50
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 3
+    m_iSNK_WavesPerGroup 5
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_iSNK_MaxSimultaneousVehicles 1
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 100
+   }
+  }
+  coords 6400.628 6.176 9618.292
+  angles -1.75 -102.084 0.375
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Centrale {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Centrale électrique"
+    m_sBaseNameUpper "CENTRALE ÉLECTRIQUE"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 4
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployRadius 200
+    m_fSNK_DeployWidth 100
+    m_fSNK_DeployYaw 160
+    m_fSNK_ZoneRadius 100
+   }
+   SNK_DepotComponent "{6A0F2E4B15D93C77}" {
+    m_bSNK_IsDepot 1
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 3
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 5804.194 7.968 9735.091
+  angles 0 -89.009 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Tyrone {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Tyrone"
+    m_sBaseNameUpper "TYRONE"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 200
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 4
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployWidth 100
+    m_fSNK_DeployYaw 10
+    m_bSNK_UrbanDefense 0
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 4
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 4883.888 35.373 9115.985
+  angles 0.739 124.405 0.506
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Gravette {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Gravette"
+    m_sBaseNameUpper "GRAVETTE"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 200
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 4
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployWidth 100
+    m_fSNK_DeployYaw 10
+    m_bSNK_UrbanDefense 0
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 4
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 4077.915 32.982 7843.459
+  angles -7.52 171.378 3.824
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Montignac {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 300
+    m_fSNK_PostCaptureTimeMin 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 6
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 6
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 150
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 3
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 4754.628 162.816 7099.604
+  angles 4.994 61.438 -5.742
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Lacourt {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Lacourt"
+    m_sBaseNameUpper "LACOURT"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PostCaptureTimeMin 180
+    m_fSNK_PostCaptureTimeMax 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 4
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployRadius 200
+    m_fSNK_DeployWidth 100
+    m_fSNK_DeployYaw 160
+    m_fSNK_ZoneRadius 100
+   }
+   SNK_DepotComponent "{6A0F2E4B15D93C77}" {
+    m_bSNK_IsDepot 1
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 3
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 100
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 3906.291 102.197 6335.393
+  angles -1.753 -101.723 0.364
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Provins {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Provins"
+    m_sBaseNameUpper "PROVINS"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 300
+    m_fSNK_PostCaptureTimeMin 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 6
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 6
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 150
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 3
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 5516.797 95.875 6012.676
+  angles 0 26.242 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Figari {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Figari"
+    m_sBaseNameUpper "FIGARI"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 300
+    m_fSNK_PostCaptureTimeMin 900
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 6
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 6
+    m_fSNK_BaseSafeRadius 600
+    m_fSNK_DefendRadius 150
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 3
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     NONE
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_PatrolRadius 150
+   }
+  }
+  coords 5274.001 63.128 5347.55
+  angles 3.17 122.725 -3.273
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Chotain {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 350
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Chotain"
+    m_sBaseNameUpper "CHOTAIN"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 350
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 9
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployRadius 170
+    m_fSNK_DeployWidth 250
+    m_fSNK_DeployYaw 20
+    m_fSNK_ZoneRadius 100
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 10
+    m_fSNK_BaseSafeRadius 600
+    m_sSNK_DefendWaypointPrefab "{95AF075D5C6384EA}Prefabs/AI/Waypoints/AIWaypoint_Defend_Infentry_Renforcement_50.et"
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+    m_fSNK_SpawnRadius 1000
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 4
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_iSNK_MaxSimultaneousVehicles 3
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     TRAIT_UNARMED
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_MinSpawnDist 500
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_MaxSpawnDist 1500
+    m_iSNK_PatrolPoints 2
+   }
+  }
+  coords 7056.21 115.779 5942.101
+  angles 0.257 56.216 5.199
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Levie {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 350
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Levie"
+    m_sBaseNameUpper "LEVIE"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 350
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 9
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployRadius 170
+    m_fSNK_DeployWidth 250
+    m_fSNK_DeployYaw 20
+    m_fSNK_ZoneRadius 100
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 10
+    m_fSNK_BaseSafeRadius 600
+    m_sSNK_DefendWaypointPrefab "{95AF075D5C6384EA}Prefabs/AI/Waypoints/AIWaypoint_Defend_Infentry_Renforcement_50.et"
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+    m_fSNK_SpawnRadius 1000
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 4
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_iSNK_MaxSimultaneousVehicles 3
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     TRAIT_UNARMED
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_MinSpawnDist 500
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_MaxSpawnDist 1500
+    m_iSNK_PatrolPoints 2
+   }
+  }
+  coords 7462.141 137.137 4736.965
+  angles -4.783 8.35 -4.3
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Base_Morton {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+    m_bCapturingRequiresPlayer 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 350
+    m_bCanBeHQ 0
+    m_bSeizedByMajority 1
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Morton"
+    m_sBaseNameUpper "MORTON"
+   }
+   SNK_AirSupportComponent "{68DE7CDD13F45CC6}" {
+    m_bSNK_AirSupportEnabled 1
+   }
+   SNK_BaseConditionsComponent "{68DE7CDD0081F685}" {
+    m_sSNK_PlayerFactionKey "FR"
+    m_fSNK_PlayerDetectionRadius 350
+   }
+   SNK_BaseDefenseComponent "{68E6D2484EC6E96B}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_LARGE
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_GroupCount 9
+    m_eSNK_DeployShape RECTANGLE
+    m_fSNK_DeployRadius 170
+    m_fSNK_DeployWidth 250
+    m_fSNK_DeployYaw 20
+    m_fSNK_ZoneRadius 100
+   }
+   SNK_InfantryReinforcementComponent "{68DE7CDD045C4DC6}" {
+    m_aSNK_IncludedLabels {
+     GROUPSIZE_MEDIUM
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_ExcludedLabels {
+     GROUPSIZE_SMALL
+    }
+    m_iSNK_MaxSimultaneousGroups 10
+    m_fSNK_BaseSafeRadius 600
+    m_sSNK_DefendWaypointPrefab "{95AF075D5C6384EA}Prefabs/AI/Waypoints/AIWaypoint_Defend_Infentry_Renforcement_50.et"
+   }
+   SNK_MortarSupportComponent "{68DE7CDD1A0A39A1}" {
+    m_sSNK_MortarGroupPrefab "{657590C1EC9E27D3}Prefabs/Groups/OPFOR/Group_USSR_LightFireTeam.et"
+    m_fSNK_SpawnRadius 1000
+   }
+   SNK_RoadblockComponent "{68F0A91B4D7A6C21}" {
+    m_iSNK_MaxRoadblocks 4
+    m_aSNK_RoadblockIncludedLabels +{
+    }
+    m_fSNK_MinSpawnDistFromBase 200
+    m_fSNK_MaxSpawnDistFromBase 400
+    m_fSNK_DefendWaypointRadius 50
+   }
+   SNK_VehicleReinforcementComponent "{68DE7CDD18CED2A8}" {
+    m_iSNK_MaxSimultaneousVehicles 3
+    m_aSNK_GroupIncludedLabels {
+     GROUPSIZE_LARGE
+    }
+    m_aSNK_GroupExcludedLabels {
+     GROUPSIZE_SMALL
+     GROUPSIZE_MEDIUM
+    }
+    m_aSNK_IncludedLabels {
+     TRAIT_ARMED
+     TRAIT_UNARMED
+    }
+    m_aSNK_ExcludedLabels {
+     TRAIT_REARMING
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+     TRAIT_REFUELING
+     TRAIT_MEDICAL
+    }
+    m_fSNK_MinSpawnDist 500
+    m_fSNK_AttackedBaseMinSpawnDist 600
+    m_fSNK_MaxSpawnDist 1500
+    m_iSNK_PatrolPoints 2
+   }
+  }
+  coords 5118.575 14.799 3996.041
+  angles -5.723 -16.769 2.65
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

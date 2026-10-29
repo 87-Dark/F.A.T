@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{C3EDF65FBE4507AA}Prefabs/Characters/Factions/BLUFOR/AMF_2020s/BME/Character_FR_BME_Unarmed.et" {
+ ID "D3E45F9F4B214789"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Tenue lisse F.A.T"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{01277905A781CDF4}Prefabs/Characters/HeadGear/BERET/beret_Bleu_Fonce_Infanterie.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D89CE19042660331}Prefabs/Characters/Uniforms/F3_Ubas/BME/F3_Ubas_BME_Patch_FRANCE.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Pants/F3_Pantalon_BME.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Pants/F3_Pantalon_BME.et"
+     PrefabsToSpawn {
+      "{6676FF9B716402CC}Prefabs/Items/PersonalBelongings/PersonalBelongings_US.et" "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+   }
+  }
+ }
+}
